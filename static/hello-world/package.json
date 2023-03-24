@@ -1,0 +1,38 @@
+{
+  "name": "jira-project-page-custom-ui-static",
+  "version": "0.1.8",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@atlaskit/css-reset": "^6.0.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@forge/bridge": "2.5.2",
+    "@mui/base": "^5.0.0-alpha.122",
+    "@mui/material": "^5.11.14",
+    "@mui/x-date-pickers": "^6.0.2",
+    "moment": "^2.29.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

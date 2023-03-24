@@ -1,0 +1,22 @@
+modules:
+  jira:projectPage:
+    - key: jira-test-hello-world-project-page
+      resource: main
+      resolver:
+        function: resolver
+      title: Jira Project Test
+  function:
+    - key: resolver
+      handler: index.handler
+permissions:
+  content:
+    styles:
+      - unsafe-inline
+  scopes:
+    - manage:jira-project
+    - read:jira-work
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  id: ari:cloud:ecosystem::app/c67ba6b4-720f-4dd8-8d52-965bb4a966e3
